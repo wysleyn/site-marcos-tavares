@@ -9,7 +9,7 @@
     <!-- Fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     
     <!-- Ícones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -28,7 +28,7 @@
     <header id="header">
         <div class="container nav-container">
             <a href="#inicio" class="logo">
-                <img src="imagens/logo-mt.jpg" alt="Logotipo Marcos Tavares - Advogado">
+                <img src="imagens/logo-mt.png" alt="Logotipo Marcos Tavares - Advogado">
             </a>
             
             <nav>
@@ -49,12 +49,16 @@
         </div>
     </header>
 
-    <!-- TOPO / PRIMEIRA TELA -->
+    <!-- TOPO / PRIMEIRA TELA (EDITORIAL) -->
     <section class="hero" id="inicio">
+        <!-- Marca d'água MT -->
+        <div class="marca-dagua">MT</div>
+        
         <div class="container hero-container">
             <div class="hero-texto">
-                <h1>Defesa Criminal Estratégica em Paraty e Região.</h1>
-                <p class="subtitulo">Atuação exclusiva em Direito Penal. Do plantão 24h em casos de urgência à defesa técnica em inquéritos e processos. Presença institucional e preparo para proteger seus direitos.</p>
+                <span class="tag-topo">Advocacia Criminal Especializada</span>
+                <h1>Defesa Criminal <em>Estratégica</em> em Paraty e Região.</h1>
+                <p class="subtitulo">Atuação exclusiva em Direito Penal. Do plantão 24h em casos de urgência à defesa técnica em inquéritos e processos.</p>
                 
                 <div class="hero-botoes">
                     <a href="https://wa.me/5524999573060" class="btn-principal" target="_blank">
@@ -66,66 +70,54 @@
                 <p class="micro-confianca"><i class="fas fa-lock"></i> Atendimento com sigilo absoluto. OAB/RJ 186.397.</p>
             </div>
             
-            <div class="hero-imagem">
-                <img src="imagens/retrato.jpg" alt="Dr. Marcos Tavares, advogado criminalista">
+            <div class="hero-imagem-wrapper">
+                <div class="moldura-dourada"></div>
+                <img src="imagens/retrato.jpg" alt="Dr. Marcos Tavares, advogado criminalista" class="hero-foto">
             </div>
         </div>
     </section>
 
-    <!-- FAIXA DE CREDIBILIDADE -->
-    <section class="credibilidade">
-        <div class="container credibilidade-grid">
-            <div class="cred-item">
-                <h3>OAB/RJ</h3>
-                <p>Inscrição 186.397</p>
-            </div>
-            <div class="cred-item">
-                <h3>Pós-graduado</h3>
-                <p>Ciências Penais</p>
-            </div>
-            <div class="cred-item">
-                <h3>Vice-Presidente</h3>
-                <p>OAB Paraty</p>
-            </div>
-            <div class="cred-item">
-                <h3>24h</h3>
-                <p>Plantão para urgências</p>
-            </div>
+    <!-- LINHA DE CREDIBILIDADE SUTIL -->
+    <div class="linha-credibilidade">
+        <div class="container">
+            <p>OAB/RJ 186.397 <span>•</span> Vice-Presidente OAB Paraty <span>•</span> Pós-graduado em Ciências Penais <span>•</span> Plantão 24h</p>
         </div>
-    </section>
+    </div>
 
-    <!-- ÁREAS DE ATUAÇÃO -->
+    <!-- ÁREAS DE ATUAÇÃO (ASSIMÉTRICA) -->
     <section class="atuacao" id="atuacao">
         <div class="container">
             <div class="atuacao-cabecalho">
-                <h2 class="titulo-secao">Atuação Criminal Especializada</h2>
-                <p class="subtitulo-secao">Defesa técnica para momentos que exigem respostas rápidas e estratégia.</p>
+                <span class="tag-secao">01 / Atuação</span>
+                <h2 class="titulo-secao">Defesa técnica para momentos que exigem respostas rápidas.</h2>
             </div>
             
-            <div class="atuacao-grid">
+            <div class="atuacao-grid-editorial">
+                <!-- Card Destaque (Grande) -->
                 <div class="atuacao-card destaque">
                     <div class="selo-destaque">Urgência 24h</div>
                     <i class="fas fa-gavel"></i>
                     <h3>Prisão em Flagrante e Audiência de Custódia</h3>
-                    <p>Atendimento imediato para garantir que os direitos do preso sejam respeitados na primeira audiência.</p>
+                    <p>Atendimento imediato para garantir que os direitos do preso sejam respeitados na primeira audiência. Atuação em delegacias e tribunais.</p>
                 </div>
 
+                <!-- Cards Menores -->
                 <div class="atuacao-card">
                     <i class="fas fa-shield-alt"></i>
-                    <h3>Pedido de Liberdade Provisória e Habeas Corpus</h3>
-                    <p>Medidas urgentes para cessar prisões ilegais ou abusivas, com atuação rápida nos tribunais.</p>
+                    <h3>Liberdade Provisória e Habeas Corpus</h3>
+                    <p>Medidas urgentes para cessar prisões ilegais ou abusivas.</p>
                 </div>
 
                 <div class="atuacao-card">
                     <i class="fas fa-search"></i>
-                    <h3>Defesa em Inquéritos e Processos Penais</h3>
-                    <p>Acompanhamento desde a investigação até a sentença, com sigilo e estratégia processual.</p>
+                    <h3>Inquéritos e Processos Penais</h3>
+                    <p>Acompanhamento desde a investigação até a sentença, com sigilo absoluto.</p>
                 </div>
 
                 <div class="atuacao-card">
                     <i class="fas fa-balance-scale"></i>
                     <h3>Advocacia Criminal</h3>
-                    <p>Atuação em tribunais, audiências e sustentações orais, com foco em direito penal e processual penal.</p>
+                    <p>Atuação em audiências e sustentações orais com foco em direito penal.</p>
                 </div>
             </div>
         </div>
@@ -135,6 +127,7 @@
     <section class="escritorio" id="escritorio">
         <div class="container escritorio-container">
             <div class="escritorio-texto">
+                <span class="tag-secao">02 / O Escritório</span>
                 <h2>Quem está por trás da defesa</h2>
                 <p>Dr. Marcos Tavares é advogado criminalista em Paraty, pós-graduado em Ciências Penais e dedicado exclusivamente à defesa criminal na Comarca e região.</p>
                 <p>Vice-Presidente da OAB Paraty e Presidente da Comissão de Segurança Pública, alia a prática forense à atuação institucional em prol da advocacia e da sociedade.</p>
@@ -145,8 +138,9 @@
                     <span><i class="fas fa-university"></i> Vice-Presidente OAB Paraty</span>
                 </div>
             </div>
-            <div class="escritorio-imagem">
-                <img src="imagens/institucional.jpg" alt="Dr. Marcos Tavares em evento institucional da OAB">
+            <div class="escritorio-imagem-wrapper">
+                <div class="moldura-dourada-escritorio"></div>
+                <img src="imagens/institucional.jpg" alt="Dr. Marcos Tavares em evento institucional da OAB" class="escritorio-foto">
             </div>
         </div>
     </section>
@@ -155,6 +149,7 @@
     <section class="como-funciona">
         <div class="container">
             <div class="text-center">
+                <span class="tag-secao">03 / Atendimento</span>
                 <h2 class="titulo-secao">Como funciona o atendimento</h2>
             </div>
             
@@ -167,17 +162,17 @@
                 <div class="passo-item">
                     <div class="passo-numero">2</div>
                     <h3>Análise de Urgência</h3>
-                    <p>Avaliamos a situação e orientamos sobre os próximos passos e prazos.</p>
+                    <p>Avaliamos a situação e orientamos sobre prazos e próximos passos.</p>
                 </div>
                 <div class="passo-item">
                     <div class="passo-numero">3</div>
                     <h3>Estratégia</h3>
-                    <p>Definimos a medida cabível, seja cautelar, habeas corpus ou defesa processual.</p>
+                    <p>Definimos a medida cabível: cautelar, habeas corpus ou defesa processual.</p>
                 </div>
                 <div class="passo-item">
                     <div class="passo-numero">4</div>
                     <h3>Acompanhamento</h3>
-                    <p>Atuamos em audiências, tribunais e sustentações orais, com transparência.</p>
+                    <p>Atuamos em audiências e tribunais com total transparência.</p>
                 </div>
             </div>
         </div>
@@ -187,6 +182,7 @@
     <section class="plantao" id="plantao">
         <div class="container plantao-box">
             <div class="plantao-texto">
+                <span class="tag-secao clara">Urgência</span>
                 <h2>Plantão 24h para prisões em flagrante e audiências de custódia.</h2>
                 <p>Em situações de urgência, cada minuto importa. O atendimento imediato é essencial para garantir a integridade da defesa.</p>
                 <a href="https://wa.me/5524999573060" class="btn-principal" target="_blank">
@@ -203,7 +199,8 @@
     <section class="faq" id="duvidas">
         <div class="container">
             <div class="text-center">
-                <h2 class="titulo-secao">Dúvidas frequentes</h2>
+                <span class="tag-secao">04 / Dúvidas</span>
+                <h2 class="titulo-secao">Perguntas frequentes</h2>
             </div>
             
             <div class="faq-lista">
@@ -221,7 +218,7 @@
                 </details>
                 <details class="faq-item">
                     <summary>Quais os limites da atuação no plantão?</summary>
-                    <p>O plantão é voltado para atendimentos de urgência, como prisões em flagrante e audiências de custódia. Para casos que não exigem atendimento imediato, o agendamento é feito em horário comercial.</p>
+                    <p>O plantão é voltado para atendimentos de urgência. Para casos que não exigem atendimento imediato, o agendamento é feito em horário comercial.</p>
                 </details>
                 <details class="faq-item">
                     <summary>O atendimento pode ser feito de forma online?</summary>
@@ -235,6 +232,7 @@
     <section class="contato" id="contato">
         <div class="container contato-container">
             <div class="contato-info">
+                <span class="tag-secao clara">05 / Contato</span>
                 <h2>Precisa de defesa criminal em Paraty?</h2>
                 <p>Entre em contato para uma orientação inicial e saiba como podemos atuar no seu caso.</p>
                 
@@ -265,7 +263,6 @@
                         <span class="error-message"></span>
                     </div>
                     
-                    <!-- Proteção Anti-Spam -->
                     <input type="text" id="website" name="website" style="display:none !important" tabindex="-1" autocomplete="off">
                     
                     <button type="submit" class="btn-principal btn-bloco">Enviar Mensagem</button>
@@ -278,7 +275,6 @@
             </div>
         </div>
         
-        <!-- MAPA -->
         <div class="container mapa-container">
             <iframe 
                 src="https://www.google.com/maps?q=Galeria+Jorge+Rodrigues,+Rua+Dr.+Derli+Elena,+292,+Paraty+-+RJ&output=embed" 
@@ -291,7 +287,7 @@
     <footer class="rodape">
         <div class="container rodape-grid">
             <div class="rodape-marca">
-                <img src="imagens/logo-mt.jpg" alt="Logotipo Marcos Tavares - Advogado" class="logo-rodape">
+                <img src="imagens/logo-mt.png" alt="Logotipo Marcos Tavares - Advogado" class="logo-rodape">
                 <p>Defesa criminal estratégica em Paraty e região.</p>
             </div>
             
@@ -322,13 +318,10 @@
         </div>
     </footer>
 
-    <!-- BOTÃO VOLTAR AO TOPO -->
     <button id="btn-topo" class="btn-topo" aria-label="Voltar ao topo">
         <i class="fas fa-chevron-up"></i>
     </button>
 
-    <!-- JAVASCRIPT -->
     <script src="script.js"></script>
-
 </body>
 </html>
